@@ -1,5 +1,5 @@
 
-# SQL injection
+# SQL injection_labs
 ### lab_1. SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 SQL injection - product category filter
 
@@ -28,7 +28,7 @@ SELECT firstname FROM users where username='admin' and password='admin'
 SELECT firstname FROM users where username=''' and password='admin'
 SELECT firstname FROM users where username='administrator'--' and password='admin'
 SELECT firstname FROM users where username='admin'
-``` sql
+```
 
 ### lab_3.  SQL injection attack, querying the database type and version on Oracle
 SQL Injection - Product category filter
